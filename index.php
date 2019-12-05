@@ -1,0 +1,20 @@
+<?php
+$lifetime = 30 * 24 * 3600;
+session_set_cookie_params($lifetime, '/');
+session_start();
+include_once("config/Database.php");
+require_once 'controller/ControllerHomepage.php';
+require_once 'controller/ControllerBook.php';
+require_once 'controller/ControllerCategory.php';
+require_once 'controller/ControllerStudent.php';
+require_once 'controller/ControllerBorrowBook.php';
+$controllerHomepage = new ControllerHomepage();
+$controllerHomepage->invoke();
+$controllerBook = new ControllerBook();
+$controllerBook->invoke();
+$controllerCategory = new ControllerCategory();
+$controllerCategory->invoke();
+$controllerStudent = new ControllerStudent();
+$controllerStudent->invoke();
+$controllerBorrowBook = new ControllerBorrowBook();
+$controllerBorrowBook->invoke();

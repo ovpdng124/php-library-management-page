@@ -1,0 +1,10 @@
+05:12:19 01:03:21SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lib_management`.`receipts`, CONSTRAINT `receipts_fk_students` FOREIGN KEY (`cardID`) REFERENCES `students` (`cardID`))
+
+05:12:19 01:09:25SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lib_management`.`receipts`, CONSTRAINT `receipts_fk_students` FOREIGN KEY (`cardID`) REFERENCES `students` (`cardID`))
+
+05:12:19 03:17:29SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lib_management`.`receipts`, CONSTRAINT `receipts_fk_students` FOREIGN KEY (`cardID`) REFERENCES `students` (`cardID`))
+
+05:12:19 06:26:28SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lib_management`.`receipts`, CONSTRAINT `receipts_fk_students` FOREIGN KEY (`cardID`) REFERENCES `students` (`cardID`))
+
+05:12:19 07:23:18SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`lib_management`.`receipts`, CONSTRAINT `receipts_fk_students` FOREIGN KEY (`cardID`) REFERENCES `students` (`cardID`))
+
