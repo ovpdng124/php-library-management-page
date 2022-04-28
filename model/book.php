@@ -3,7 +3,8 @@ require_once "config/Database.php";
 function getBooks()
 {
     $connection = Database::getConnectDB();
-    $query = "SELECT * FROM bookss";
+    $query = "SELECT * FROM books";
+    //sua lai code
     try {
         $stmt = $connection->prepare($query);
         $stmt->execute();
